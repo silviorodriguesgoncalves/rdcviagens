@@ -1,0 +1,100 @@
+.promotions.horizontal > li {
+    width: 300px !important;
+    text-align: center;
+}
+.promotions a {
+    width: 290px !important;
+}
+.promotions a:hover{
+    box-shadow: 0 12px 20px rgb(68 68 68 / 20%);
+    border: 1px solid var(--color-gray-4);
+    transition: box-shadow .2s ease-out;
+}
+.promotions figure{
+    width: 290px !important;
+}
+.promotions figure img {
+    width: 290px !important;
+    height: 169px !important;
+}
+.master_title h2.title {
+    font-size: 16px !important;
+    font-weight: bold !important;
+    color: #428cca !important;
+    display: inline-block;
+    width: 100%;
+    height: max-content;
+    padding: 5px;
+}
+.night {
+    color: #fff;
+    font-weight: 600;
+    text-shadow: 2px 2px 2px #000;
+    display: block;
+    float: right;
+    width: 61px;
+    text-align: center;
+    padding: 5px;
+    position: absolute;
+    top: 142px;
+    left: 230px;
+}
+
+.titulo {
+    display: block;
+    color: #2400f6 !important;
+    margin: 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: min-content;
+    text-align: justify;
+    text-shadow: 0.05em 0.05em 0.1em black;
+    font-weight: 300;
+}
+p.obs {
+    margin: 0px !important;
+    padding: 0px 5px !important;
+    text-align: justify !important;
+    height: 50px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.price {
+    width: 100%;
+    padding: 5px 5px 0px 5px;
+}
+span.price_conection {
+    height: 37px;
+    vertical-align: middle !important;
+    width: 80px;
+    float: left;
+    display: table-cell !important;
+    padding: 11px 0px;
+    font-weight: 300 !important;
+}
+strong.total {
+    color: #fe7000 !important;
+    width: 112px;
+    float: left;
+}
+.bypersonal {
+    margin: 8px 0;
+    font-weight: 400;
+    line-height: 16px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    text-align: left;
+    font-size: 12px !important;
+    color: #7d7d7d;
+    padding: 0px 5px;
+}
+.atention {
+    color: #777;
+    font-size: 9px !important;
+    font-weight: 700;
+    letter-spacing: -.22px;
+    padding: 0px 5px;
+}
